@@ -1,7 +1,8 @@
-Ver. 0.4.6 - 2013-Feb-27
+Ver. 0.4.6 - 2013-Feb-8
 ==============================
 * Added websocket chat example.
 * Fixed bug in wsgi parser.
+* Several bug-fixes in tasks application.
 * **374 regression tests**, **87% coverage**.
 
 Ver. 0.4.5 - 2013-Jan-27
