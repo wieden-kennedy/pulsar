@@ -1,5 +1,5 @@
 '''Event driven concurrent framework for Python'''
-VERSION = (0, 4, 6, 'final', 0)
+VERSION = (0, 4, 7, 'beta', 0)
 
 from .utils.version import get_version
 
