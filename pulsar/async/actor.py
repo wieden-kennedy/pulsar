@@ -575,6 +575,10 @@ if *proxy* is not a class:`ActorProxy` instance raise an exception.'''
     
     def _run(self):
         try:
+            self.cfg.when_ready(self)
+        except Exception:
+            self.logger.exception('Unhandled exception on when_ready hook')
+        try:
             self.requestloop.start()
         finally:
             self.stop()
